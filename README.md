@@ -1,72 +1,65 @@
-# IndexTTS2 Multi-Character & Long Text Support
+# IndexTTS2 Multi-Character & Long Text Extension
 
 <div align="center">
-<img src='assets/index_icon.png' width="250"/>
+<img src='assets/index_icon.png' width="200"/>
 </div>
 
-<div align="center">
-<a href="docs/README_zh.md" style="font-size: 24px">简体中文</a> | 
-<a href="README.md" style="font-size: 24px">English</a>
-</div>
+## 🎭 Enhanced Multi-Character Dialogue System
 
-## 🎭 IndexTTS2 Multi-Character Extension
+**A powerful extension to IndexTTS2 adding advanced multi-character support and long text emotion generation capabilities.**
 
-<center><h3>Advanced Multi-Character Dialogue and Long Text Emotion Generation System</h3></center>
+[![GitHub](https://img.shields.io/badge/GitHub-MultiCharacter--Extension-orange?logo=github)](https://github.com/freezelion/index-tts2-multicharacter-longtext)
 
-[![IndexTTS2 Multi-Character](assets/IndexTTS2_banner.png)](assets/IndexTTS2_banner.png)
+## ✨ What's New
 
-<div align="center">
-  <a href='https://github.com/freezelion/index-tts2-multicharacter-longtext'>
-    <img src='https://img.shields.io/badge/GitHub-MultiCharacter--Extension-orange?logo=github'/>
-  </a>
-  <a href='https://arxiv.org/abs/2506.21619'>
-    <img src='https://img.shields.io/badge/ArXiv-2506.21619-red?logo=arxiv'/>
-  </a>
-</div>
+This fork extends IndexTTS2 with specialized features for:
 
-## ✨ Enhanced Features
+### 🎭 Multi-Character Dialogue
+- **Multiple Voice Characters**: Support for 10+ distinct character voices
+- **Dynamic Role Switching**: Seamless transitions between speakers
+- **Character Configuration**: JSON-based character profiles
+- **Narrator Support**: Dedicated narrator voice option
 
-This extension adds powerful multi-character dialogue support and advanced long text emotion generation capabilities to IndexTTS2:
-
-### 🎭 Multi-Character Dialogue System
-- **Multiple Voice Characters**: Support for up to 10+ distinct character voices in a single dialogue
-- **Character Configuration**: Easy JSON-based character setup with unique voice profiles
-- **Dynamic Role Switching**: Seamless transitions between different speakers
-- **Narrator Support**: Dedicated narrator voice for story context
-
-### 📖 Long Text Emotion Generation
-- **Emotion-Aware Synthesis**: Intelligent emotion detection and application in long texts
-- **Descriptive Emotion Control**: Support for natural language emotion descriptions
-- **Mixed Emotion Support**: Complex emotional states with multiple emotion vectors
-- **Emotion Accuracy Fix**: Improved emotion recognition and application
+### 📖 Long Text Emotion Generation  
+- **Emotion-Aware Synthesis**: Intelligent emotion detection in long texts
+- **Descriptive Emotion Control**: Natural language emotion descriptions
+- **Mixed Emotion Support**: Complex emotional state combinations
+- **Emotion Accuracy Improvements**: Enhanced emotion recognition
 
 ### 🔧 Advanced Integration
-- **SSH TTS Support**: Remote TTS generation capabilities
-- **n8n Workflow Integration**: Automated content generation pipelines
-- **LLM Prompt Engineering**: Advanced prompt templates for multi-character scenarios
+- **SSH TTS Support**: Remote audio generation capabilities
+- **n8n Workflow Integration**: Automation pipeline support
+- **LLM Collaboration**: Enhanced prompt engineering
 
 ## 🚀 Quick Start
+
+### Installation
+
+```bash
+git clone https://github.com/freezelion/index-tts2-multicharacter-longtext.git
+cd index-tts2-multicharacter-longtext
+uv sync --all-extras
+```
 
 ### Multi-Character Usage
 
 ```python
 from multi_person_support.scripts.multi_character_emotion_generator import MultiCharacterGenerator
 
-# Initialize with character configuration
+# Initialize with character config
 generator = MultiCharacterGenerator("multi_person_support/config/character_config.json")
 
-# Generate multi-character dialogue
+# Generate dialogue with multiple characters
 script = """
-[Alice: excited] Hey everyone! I'm so excited to be here today!
-[Bob: calm] Welcome Alice, we've been expecting you.
-[Narrator: neutral] The meeting begins with enthusiastic introductions.
+[Alice: excited] Hello everyone! I'm thrilled to be here!
+[Bob: calm] Welcome Alice, we're glad to have you.
+[Narrator: neutral] The meeting commenced with warm introductions.
 """
 
-output_file = "multi_character_dialogue.wav"
-generator.generate_dialogue(script, output_file)
+generator.generate_dialogue(script, "output_dialogue.wav")
 ```
 
-### Long Text Emotion Generation
+### Long Text with Emotion
 
 ```python
 from multi_person_support.scripts.long_text_emotion_generator import LongTextEmotionGenerator
@@ -74,14 +67,12 @@ from multi_person_support.scripts.long_text_emotion_generator import LongTextEmo
 generator = LongTextEmotionGenerator()
 
 long_text = """
-In a surprising turn of events, the team discovered an ancient artifact that would change everything. 
-The excitement was palpable as they carefully examined the mysterious object. 
-However, their joy quickly turned to concern when they realized the potential dangers it posed.
+The discovery was absolutely astonishing! Everyone was filled with excitement and wonder. 
+But as we examined the artifact more closely, a sense of caution began to emerge. 
+The initial joy was gradually replaced by thoughtful consideration of the implications.
 """
 
-# Generate with automatic emotion detection
-output_file = "long_story.wav"
-generator.generate_with_emotion(long_text, "examples/voice_01.wav", output_file)
+generator.generate_with_emotion(long_text, "examples/voice_01.wav", "long_story.wav")
 ```
 
 ## 📁 Project Structure
@@ -90,115 +81,92 @@ generator.generate_with_emotion(long_text, "examples/voice_01.wav", output_file)
 multi_person_support/
 ├── config/
 │   └── character_config.json          # Character voice profiles
-├── docs/
-│   ├── LLM_MULTI_CHARACTER_PROMPT.md  # Advanced prompt engineering
-│   ├── EMOTION_ACCURACY_FIX.md        # Emotion recognition improvements
-│   ├── README_MULTI_CHARACTER_EMOTION.md
-│   ├── README_LONG_TEXT_EMOTION.md
-│   └── README_SSH_TTS.md
-├── examples/                          # Sample scripts and configurations
 ├── scripts/
-│   ├── multi_character_emotion_generator.py
-│   ├── long_text_emotion_generator.py
-│   ├── ssh_indextts2_generate.sh      # SSH remote generation
-│   └── ssh_n8n_processor.py           # n8n integration
-└── test_data/                         # Test cases and validation
+│   ├── multi_character_emotion_generator.py    # Multi-character dialogue
+│   ├── long_text_emotion_generator.py          # Long text processing
+│   ├── ssh_indextts2_generate.sh               # Remote generation
+│   └── ssh_n8n_processor.py                    # Automation integration
+├── examples/                          # Usage examples
+└── docs/                             # Detailed documentation
 ```
 
-## 🎯 Key Features
+## 🎯 Core Features
 
-### 1. Character Configuration
-Define multiple characters with unique voice properties:
+### Character Configuration Example
+
 ```json
 {
   "characters": {
     "Alice": {
       "voice_prompt": "examples/voice_01.wav",
       "default_emotion": "excited",
-      "description": "Energetic and enthusiastic young woman"
+      "description": "Energetic and enthusiastic"
     },
     "Bob": {
-      "voice_prompt": "examples/voice_02.wav", 
-      "default_emotion": "calm",
-      "description": "Calm and rational middle-aged man"
+      "voice_prompt": "examples/voice_02.wav",
+      "default_emotion": "calm", 
+      "description": "Calm and rational"
     }
   }
 }
 ```
 
-### 2. Emotion Enhancement
-- **8-Dimensional Emotion Vectors**: [happy, angry, sad, afraid, disgusted, melancholic, surprised, calm]
-- **Text-based Emotion Control**: Natural language emotion descriptions
-- **Emotion Blending**: Mix multiple emotions for complex expressions
-- **Automatic Emotion Detection**: AI-powered emotion recognition from text
+### Emotion Control
+- **8 Emotion Dimensions**: [happy, angry, sad, afraid, disgusted, melancholic, surprised, calm]
+- **Text-based Emotions**: Natural language descriptions
+- **Emotion Blending**: Mix multiple emotional states
+- **Auto-detection**: AI-powered emotion recognition
 
-### 3. Advanced Integration
-- **SSH Remote Generation**: Generate audio on remote servers
-- **n8n Automation**: Integrate with workflow automation tools
-- **LLM Collaboration**: Work with large language models for script generation
+## 📊 Performance
 
-## 🔧 Installation
+- **Multi-Character Switching**: < 2 seconds per character change
+- **Long Text Support**: Up to 10,000 characters
+- **Emotion Accuracy**: > 85% recognition rate  
+- **Voice Consistency**: Stable character voice maintenance
 
-Follow the standard IndexTTS2 installation, then explore the multi-person support features:
+## 🎮 Examples
 
+Check `multi_person_support/examples/` for ready-to-use templates:
+
+1. **Basic multi-character dialogue**
+2. **Emotion number-based control**
+3. **Natural language emotion descriptions** 
+4. **Complex mixed emotion scenarios**
+
+## 🔧 Advanced Usage
+
+### SSH Remote Generation
 ```bash
-# Clone the repository
-git clone https://github.com/freezelion/index-tts2-multicharacter-longtext.git
-cd index-tts2-multicharacter-longtext
-
-# Install dependencies
-uv sync --all-extras
-
-# Explore multi-character examples
-cd multi_person_support/examples
+./multi_person_support/scripts/ssh_indextts2_generate.sh \
+  -h your-server.com \
+  -u username \
+  -s "multi_character_script.txt" \
+  -o "remote_output.wav"
 ```
 
-## 📊 Performance Features
+### n8n Integration
+```python
+from multi_person_support.scripts.ssh_n8n_processor import process_automation
 
-- **Multi-Character Latency**: < 2 seconds per character switch
-- **Long Text Processing**: Support for texts up to 10,000 characters
-- **Emotion Accuracy**: > 85% emotion recognition accuracy
-- **Voice Consistency**: Maintains character voice consistency across sessions
+# Process automated content generation
+result = process_automation("input_script.json")
+```
 
-## 🎮 Demo Examples
+## 📚 Documentation
 
-Check the `multi_person_support/examples/` directory for ready-to-use examples:
-
-1. **Basic Story**: Simple multi-character dialogue
-2. **Emotion Numbers**: Emotion control using numerical vectors  
-3. **Emotion Descriptions**: Emotion control using natural language
-4. **Mixed Emotions**: Complex emotional state examples
+Detailed guides available in `multi_person_support/docs/`:
+- `LLM_MULTI_CHARACTER_PROMPT.md` - Advanced prompt engineering
+- `EMOTION_ACCURACY_FIX.md` - Emotion recognition improvements  
+- Integration guides for SSH and n8n
 
 ## 🤝 Contributing
 
-We welcome contributions to enhance the multi-character and long text capabilities!
-
-Areas of interest:
+We welcome contributions for:
 - New character voice presets
-- Improved emotion detection algorithms
+- Enhanced emotion detection
 - Additional integration examples
 - Performance optimizations
 
-## 📞 Support
-
-For issues specific to multi-character functionality:
-- Create an issue on GitHub
-- Check the documentation in `multi_person_support/docs/`
-- Review example configurations
-
-## 📜 License
-
-This extension is built upon IndexTTS2 and follows the same licensing terms.
-
-## 🙏 Acknowledgments
-
-Built upon the amazing IndexTTS2 foundation from the Bilibili IndexTeam.
-
-Additional thanks to:
-- The open-source community for voice synthesis tools
-- Contributors to emotion recognition research
-- Testers and users providing valuable feedback
-
 ---
 
-**Note**: This is an extension to the original IndexTTS2 project, adding specialized multi-character and long text capabilities while maintaining full compatibility with the base system.
+**Note**: This extension maintains full compatibility with base IndexTTS2 while adding specialized multi-character and long text capabilities.
