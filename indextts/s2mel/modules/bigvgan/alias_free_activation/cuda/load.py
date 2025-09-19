@@ -41,6 +41,7 @@ def load():
                 "-gencode",
                 "arch=compute_70,code=sm_70",
                 "--use_fast_math",
+                "-allow-unsupported-compiler",
             ]
             + extra_cuda_flags
             + cc_flag,
@@ -52,6 +53,13 @@ def load():
         "-U__CUDA_NO_HALF_CONVERSIONS__",
         "--expt-relaxed-constexpr",
         "--expt-extended-lambda",
+        "-D__STDC_VERSION__=201710L",
+        "-D__FLT32_MANT_DIG__=24",
+        "-D__FLT64_MANT_DIG__=53",
+        "-D__FLT128_MANT_DIG__=113",
+        "-D__FLT32_MAX_EXP__=128",
+        "-D__FLT64_MAX_EXP__=1024",
+        "-D__FLT128_MAX_EXP__=16384",
     ]
 
     sources = [

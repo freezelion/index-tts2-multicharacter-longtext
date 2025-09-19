@@ -1,0 +1,25 @@
+{
+  "output": {
+    "character_config": {
+      "characters": {
+        "narrator": {
+          "name": "Narrator",
+          "voice_file": "/media/george/AI/my_share_folder/sample_voice/山山_mono.wav",
+          "pitch": 0,
+          "speech_rate": 0.9,
+          "volume": 0.9,
+          "emotion_intensity": 0.9
+        },
+        "sarah": {
+          "name": "Science Reporter",
+          "voice_file": "/media/george/AI/my_share_folder/sample_voice/女声_mono.wav",
+          "pitch": -0.2,
+          "speech_rate": 1.1,
+          "volume": 1,
+          "emotion_intensity": 0.8
+        }
+      }
+    },
+    "script_content": "{[narrator]:[calm:0.9]}我是旁白，使用山山的语音样本\n{[sarah]:[excited:very excited and enthusiastic]}我是主持人，使用女声样本\n{[narrator]:[calm:very peaceful and calm]}旁白再次出现，应该还是山山的声音"
+  }
+}

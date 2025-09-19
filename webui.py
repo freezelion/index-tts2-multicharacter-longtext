@@ -22,7 +22,7 @@ parser = argparse.ArgumentParser(
     formatter_class=argparse.ArgumentDefaultsHelpFormatter,
 )
 parser.add_argument("--verbose", action="store_true", default=False, help="Enable verbose mode")
-parser.add_argument("--port", type=int, default=7860, help="Port to run the web UI on")
+parser.add_argument("--port", type=int, default=7858, help="Port to run the web UI on")
 parser.add_argument("--host", type=str, default="0.0.0.0", help="Host to run the web UI on")
 parser.add_argument("--model_dir", type=str, default="./checkpoints", help="Model checkpoints directory")
 parser.add_argument("--fp16", action="store_true", default=False, help="Use FP16 for inference if available")

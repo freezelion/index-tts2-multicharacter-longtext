@@ -1,0 +1,33 @@
+{
+  "output": {
+    "character_config": {
+      "characters": {
+        "narrator": {
+          "name": "Narrator",
+          "voice_file": "/media/george/AI/my_share_folder/山波声音采样20250824/山山.wav",
+          "pitch": 0,
+          "speech_rate": 0.9,
+          "volume": 0.9,
+          "emotion_intensity": 0.9
+        },
+        "sarah": {
+          "name": "Science Reporter",
+          "voice_file": "2.语速比较快的讲解女声Haa.wav",
+          "pitch": -0.2,
+          "speech_rate": 1.1,
+          "volume": 1,
+          "emotion_intensity": 0.8
+        },
+        "tom": {
+          "name": "AI Expert",
+          "voice_file": "口播男声.wav",
+          "pitch": 0.1,
+          "speech_rate": 1,
+          "volume": 1,
+          "emotion_intensity": 0.8
+        }
+      }
+    },
+    "script_content": "{[narrator]:[calm:0.9]}欢迎收听科技前沿播客，今天我们探讨AI发展\n{[sarah]:[excited:very excited and enthusiastic]}最新的人工智能技术令人惊叹！它正在改变我们的世界\n{[tom]:[calm:0.85]}作为专家，我认为这项技术需要谨慎对待\n{[narrator]:[calm:thoughtful and contemplative]}感谢收听，我们下期再见"
+  }
+}

@@ -1,0 +1,156 @@
+2025-09-19 08:45:17 [INFO] === SSH TTS Executor Started ===
+2025-09-19 08:45:17 [INFO] Input: integration/examples/ssh_n8n_example.json
+2025-09-19 08:45:17 [INFO] Output: final_test.wav
+2025-09-19 08:45:17 [INFO] Config: /media/george/AI/Voice/index-tts2/integration/scripts/../../integration/config/character_config.json
+2025-09-19 08:45:17 [INFO] Model: /media/george/AI/Voice/index-tts2/integration/scripts/../../checkpoints
+2025-09-19 08:45:17 [INFO] Checking dependencies...
+2025-09-19 08:45:17 [INFO] Dependencies check completed
+2025-09-19 08:45:17 [INFO] Loaded input data from: integration/examples/ssh_n8n_example.json
+2025-09-19 08:45:17 [INFO] Input data validation passed
+2025-09-19 08:45:17 [INFO] Starting TTS generation...
+2025-09-19 08:45:17 [INFO] Attempt 1 of 3
+2025-09-19 08:46:12,211 - INFO - Successfully initialized IndexTTS2 generator
+2025-09-19 08:46:43,000 - INFO - Successfully generated audio: final_test.wav
+2025-09-19 08:46:43,001 - INFO - TTS processing completed successfully
+2025-09-19 08:46:45 [INFO] TTS generation completed successfully!
+2025-09-19 08:46:45 [INFO] Output file: final_test.wav
+2025-09-19 08:46:45 [INFO] Audio duration: 14.141833s, File size: 664K
+2025-09-19 08:55:41 [INFO] === SSH TTS Executor Started ===
+2025-09-19 08:55:41 [INFO] Input: /media/george/AI/my_share_folder/test_index_tts2_001/n8n_data_test_index_tts2_001.json
+2025-09-19 08:55:41 [INFO] Output: /media/george/AI/my_share_folder/test_index_tts2_001/audio_test_index_tts2_001.wav
+2025-09-19 08:55:41 [INFO] Config: /media/george/AI/Voice/index-tts2/integration/scripts/../../integration/config/character_config.json
+2025-09-19 08:55:41 [INFO] Model: /media/george/AI/Voice/index-tts2/integration/scripts/../../checkpoints
+2025-09-19 08:55:41 [INFO] Checking dependencies...
+2025-09-19 08:55:41 [INFO] Dependencies check completed
+2025-09-19 08:55:41 [INFO] Loaded input data from: /media/george/AI/my_share_folder/test_index_tts2_001/n8n_data_test_index_tts2_001.json
+2025-09-19 08:55:41 [INFO] Input data validation passed
+2025-09-19 08:55:41 [INFO] Starting TTS generation...
+2025-09-19 08:55:41 [INFO] Attempt 1 of 3
+2025-09-19 08:56:33,034 - INFO - Successfully initialized IndexTTS2 generator
+2025-09-19 08:56:42,058 - INFO - Successfully generated audio: /media/george/AI/my_share_folder/test_index_tts2_001/audio_test_index_tts2_001.wav
+2025-09-19 08:56:42,058 - INFO - TTS processing completed successfully
+2025-09-19 08:56:43 [INFO] TTS generation completed successfully!
+2025-09-19 08:56:43 [INFO] Output file: /media/george/AI/my_share_folder/test_index_tts2_001/audio_test_index_tts2_001.wav
+2025-09-19 08:56:43 [INFO] Audio duration: 4.168000s, File size: 196K
+2025-09-19 08:57:01 [INFO] === SSH TTS Executor Started ===
+2025-09-19 08:57:01 [INFO] Input: /media/george/AI/my_share_folder/test_index_tts2_env_001/n8n_data_test_index_tts2_env_001.json
+2025-09-19 08:57:01 [INFO] Output: /media/george/AI/my_share_folder/test_index_tts2_env_001/audio_test_index_tts2_env_001.wav
+2025-09-19 08:57:01 [INFO] Config: /media/george/AI/Voice/index-tts2/integration/scripts/../../integration/config/character_config.json
+2025-09-19 08:57:01 [INFO] Model: /media/george/AI/Voice/index-tts2/integration/scripts/../../checkpoints
+2025-09-19 08:57:01 [INFO] Checking dependencies...
+2025-09-19 08:57:01 [INFO] Dependencies check completed
+2025-09-19 08:57:01 [INFO] Loaded input data from: /media/george/AI/my_share_folder/test_index_tts2_env_001/n8n_data_test_index_tts2_env_001.json
+2025-09-19 08:57:01 [INFO] Input data validation passed
+2025-09-19 08:57:01 [INFO] Starting TTS generation...
+2025-09-19 08:57:01 [INFO] Attempt 1 of 3
+2025-09-19 08:57:50,568 - INFO - Successfully initialized IndexTTS2 generator
+2025-09-19 08:57:59,643 - INFO - Successfully generated audio: /media/george/AI/my_share_folder/test_index_tts2_env_001/audio_test_index_tts2_env_001.wav
+2025-09-19 08:57:59,643 - INFO - TTS processing completed successfully
+2025-09-19 08:58:01 [INFO] TTS generation completed successfully!
+2025-09-19 08:58:01 [INFO] Output file: /media/george/AI/my_share_folder/test_index_tts2_env_001/audio_test_index_tts2_env_001.wav
+2025-09-19 08:58:01 [INFO] Audio duration: 3.390125s, File size: 160K
+2025-09-19 09:13:31 [INFO] === SSH TTS Executor Started ===
+2025-09-19 09:13:31 [INFO] Input: /media/george/AI/my_share_folder/test_multi_char_001/n8n_data_test_multi_char_001.json
+2025-09-19 09:13:31 [INFO] Output: /media/george/AI/my_share_folder/test_multi_char_001/audio_test_multi_char_001.wav
+2025-09-19 09:13:31 [INFO] Config: /media/george/AI/Voice/index-tts2/integration/scripts/../../integration/config/character_config.json
+2025-09-19 09:13:31 [INFO] Model: /media/george/AI/Voice/index-tts2/integration/scripts/../../checkpoints
+2025-09-19 09:13:31 [INFO] Checking dependencies...
+2025-09-19 09:13:31 [INFO] Dependencies check completed
+2025-09-19 09:13:31 [INFO] Loaded input data from: /media/george/AI/my_share_folder/test_multi_char_001/n8n_data_test_multi_char_001.json
+2025-09-19 09:13:31 [INFO] Input data validation passed
+2025-09-19 09:13:31 [INFO] Starting TTS generation...
+2025-09-19 09:13:31 [INFO] Attempt 1 of 3
+2025-09-19 09:15:13,239 - INFO - Successfully initialized IndexTTS2 generator
+2025-09-19 09:30:47 [INFO] === SSH TTS Executor Started ===
+2025-09-19 09:30:47 [INFO] Input: /media/george/AI/my_share_folder/562/n8n_data_562.json
+2025-09-19 09:30:47 [INFO] Output: /media/george/AI/my_share_folder/562/audio_562.wav
+2025-09-19 09:30:47 [INFO] Config: /media/george/AI/Voice/index-tts2/integration/scripts/../../integration/config/character_config.json
+2025-09-19 09:30:47 [INFO] Model: /media/george/AI/Voice/index-tts2/integration/scripts/../../checkpoints
+2025-09-19 09:30:47 [INFO] Checking dependencies...
+2025-09-19 09:30:47 [INFO] Dependencies check completed
+2025-09-19 09:30:47 [INFO] Loaded input data from: /media/george/AI/my_share_folder/562/n8n_data_562.json
+2025-09-19 09:30:47 [INFO] Input data validation passed
+2025-09-19 09:30:47 [INFO] Starting TTS generation...
+2025-09-19 09:30:47 [INFO] Attempt 1 of 3
+2025-09-19 09:31:47,915 - INFO - Successfully initialized IndexTTS2 generator
+2025-09-19 09:37:56,472 - INFO - Successfully generated audio: /media/george/AI/my_share_folder/562/audio_562.wav
+2025-09-19 09:37:56,472 - INFO - TTS processing completed successfully
+2025-09-19 09:37:59 [INFO] TTS generation completed successfully!
+2025-09-19 09:37:59 [INFO] Output file: /media/george/AI/my_share_folder/562/audio_562.wav
+2025-09-19 09:37:59 [INFO] Audio duration: 214.285875s, File size: 9.9M
+2025-09-19 10:12:35 [ERROR] Unknown option: voice_test_final. Use --help for usage information.
+2025-09-19 10:12:44 [INFO] === SSH TTS Executor Started ===
+2025-09-19 10:12:44 [INFO] Input: JSON string
+2025-09-19 10:12:44 [INFO] Output: /media/george/AI/my_share_folder/voice_test_final.wav
+2025-09-19 10:12:44 [INFO] Config: /media/george/AI/Voice/index-tts2/integration/scripts/../../integration/config/character_config.json
+2025-09-19 10:12:44 [INFO] Model: /media/george/AI/Voice/index-tts2/integration/scripts/../../checkpoints
+2025-09-19 10:12:44 [INFO] Checking dependencies...
+2025-09-19 10:12:44 [INFO] Dependencies check completed
+2025-09-19 10:12:44 [INFO] Using provided JSON string
+2025-09-19 10:12:44 [INFO] Input data validation passed
+2025-09-19 10:12:44 [INFO] Starting TTS generation...
+2025-09-19 10:12:44 [INFO] Attempt 1 of 3
+2025-09-19 10:12:44 [WARNING] TTS generation failed, retrying...
+2025-09-19 10:12:49 [INFO] Attempt 2 of 3
+2025-09-19 10:12:49 [WARNING] TTS generation failed, retrying...
+2025-09-19 10:12:54 [INFO] Attempt 3 of 3
+2025-09-19 10:12:54 [WARNING] TTS generation failed, retrying...
+2025-09-19 10:12:59 [ERROR] TTS generation failed after 3 attempts
+2025-09-19 17:37:18 [INFO] === SSH TTS Executor Started ===
+2025-09-19 17:37:18 [INFO] Input: /media/george/AI/my_share_folder/test_562/n8n_data_test_562.json
+2025-09-19 17:37:18 [INFO] Output: /media/george/AI/my_share_folder/test_562/audio_test_562.wav
+2025-09-19 17:37:18 [INFO] Config: /media/george/AI/Voice/index-tts2/multi_person_support/scripts/../../integration/config/character_config.json
+2025-09-19 17:37:18 [INFO] Model: /media/george/AI/Voice/index-tts2/multi_person_support/scripts/../../checkpoints
+2025-09-19 17:37:18 [INFO] Checking dependencies...
+2025-09-19 17:37:18 [ERROR] Character configuration file not found: /media/george/AI/Voice/index-tts2/multi_person_support/scripts/../../integration/config/character_config.json
+2025-09-19 17:37:47 [INFO] === SSH TTS Executor Started ===
+2025-09-19 17:37:47 [INFO] Input: /media/george/AI/my_share_folder/test_562_updated/n8n_data_test_562_updated.json
+2025-09-19 17:37:47 [INFO] Output: /media/george/AI/my_share_folder/test_562_updated/audio_test_562_updated.wav
+2025-09-19 17:37:47 [INFO] Config: /media/george/AI/Voice/index-tts2/multi_person_support/scripts/../../multi_person_support/config/character_config.json
+2025-09-19 17:37:47 [INFO] Model: /media/george/AI/Voice/index-tts2/multi_person_support/scripts/../../checkpoints
+2025-09-19 17:37:47 [INFO] Checking dependencies...
+2025-09-19 17:37:47 [INFO] Dependencies check completed
+2025-09-19 17:37:47 [INFO] Loaded input data from: /media/george/AI/my_share_folder/test_562_updated/n8n_data_test_562_updated.json
+2025-09-19 17:37:47 [INFO] Input data validation passed
+2025-09-19 17:37:47 [INFO] Starting TTS generation...
+2025-09-19 17:37:47 [INFO] Attempt 1 of 3
+2025-09-19 17:37:47 [WARNING] TTS generation failed, retrying...
+2025-09-19 17:37:53 [INFO] Attempt 2 of 3
+2025-09-19 17:37:53 [WARNING] TTS generation failed, retrying...
+2025-09-19 17:37:58 [INFO] Attempt 3 of 3
+2025-09-19 17:37:58 [WARNING] TTS generation failed, retrying...
+2025-09-19 17:38:03 [ERROR] TTS generation failed after 3 attempts
+2025-09-19 17:38:57 [INFO] === SSH TTS Executor Started ===
+2025-09-19 17:38:57 [INFO] Input: /media/george/AI/my_share_folder/test_562_final/n8n_data_test_562_final.json
+2025-09-19 17:38:57 [INFO] Output: /media/george/AI/my_share_folder/test_562_final/audio_test_562_final.wav
+2025-09-19 17:38:57 [INFO] Config: /media/george/AI/Voice/index-tts2/multi_person_support/scripts/../../multi_person_support/config/character_config.json
+2025-09-19 17:38:57 [INFO] Model: /media/george/AI/Voice/index-tts2/multi_person_support/scripts/../../checkpoints
+2025-09-19 17:38:57 [INFO] Checking dependencies...
+2025-09-19 17:38:57 [INFO] Dependencies check completed
+2025-09-19 17:38:57 [INFO] Loaded input data from: /media/george/AI/my_share_folder/test_562_final/n8n_data_test_562_final.json
+2025-09-19 17:38:57 [INFO] Input data validation passed
+2025-09-19 17:38:57 [INFO] Starting TTS generation...
+2025-09-19 17:38:57 [INFO] Attempt 1 of 3
+2025-09-19 17:39:33,091 - INFO - Successfully initialized IndexTTS2 generator
+2025-09-19 17:39:38,759 - INFO - Successfully generated audio: /media/george/AI/my_share_folder/test_562_final/audio_test_562_final.wav
+2025-09-19 17:39:38,759 - INFO - TTS processing completed successfully
+2025-09-19 17:39:40 [INFO] TTS generation completed successfully!
+2025-09-19 17:39:40 [INFO] Output file: /media/george/AI/my_share_folder/test_562_final/audio_test_562_final.wav
+2025-09-19 17:39:40 [INFO] Audio duration: 1.497708s, File size: 72K
+2025-09-19 17:40:45 [INFO] === SSH TTS Executor Started ===
+2025-09-19 17:40:46 [INFO] Input: /media/george/AI/my_share_folder/562/n8n_data_562.json
+2025-09-19 17:40:46 [INFO] Output: /media/george/AI/my_share_folder/562/audio_562.wav
+2025-09-19 17:40:46 [INFO] Config: /media/george/AI/Voice/index-tts2/multi_person_support/scripts/../../multi_person_support/config/character_config.json
+2025-09-19 17:40:46 [INFO] Model: /media/george/AI/Voice/index-tts2/multi_person_support/scripts/../../checkpoints
+2025-09-19 17:40:46 [INFO] Checking dependencies...
+2025-09-19 17:40:46 [INFO] Dependencies check completed
+2025-09-19 17:40:46 [INFO] Loaded input data from: /media/george/AI/my_share_folder/562/n8n_data_562.json
+2025-09-19 17:40:46 [INFO] Input data validation passed
+2025-09-19 17:40:46 [INFO] Starting TTS generation...
+2025-09-19 17:40:46 [INFO] Attempt 1 of 3
+2025-09-19 17:41:21,655 - INFO - Successfully initialized IndexTTS2 generator
+2025-09-19 17:47:41,456 - INFO - Successfully generated audio: /media/george/AI/my_share_folder/562/audio_562.wav
+2025-09-19 17:47:41,456 - INFO - TTS processing completed successfully
+2025-09-19 17:47:42 [INFO] TTS generation completed successfully!
+2025-09-19 17:47:42 [INFO] Output file: /media/george/AI/my_share_folder/562/audio_562.wav
+2025-09-19 17:47:43 [INFO] Audio duration: 201.491667s, File size: 9.3M

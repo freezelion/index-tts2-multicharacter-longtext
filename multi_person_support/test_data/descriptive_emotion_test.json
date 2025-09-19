@@ -1,0 +1,33 @@
+{
+  "output": {
+    "character_config": {
+      "characters": {
+        "narrator": {
+          "name": "Narrator",
+          "voice_file": "/media/george/AI/my_share_folder/山波声音采样20250824/山山.wav",
+          "pitch": 0,
+          "speech_rate": 0.9,
+          "volume": 0.9,
+          "emotion_intensity": 0.6
+        },
+        "sarah": {
+          "name": "Science Reporter",
+          "voice_file": "2.语速比较快的讲解女声Haa.wav",
+          "pitch": -0.2,
+          "speech_rate": 1.1,
+          "volume": 1,
+          "emotion_intensity": 0.8
+        },
+        "tom": {
+          "name": "AI Expert",
+          "voice_file": "口播男声.wav",
+          "pitch": 0.1,
+          "speech_rate": 1,
+          "volume": 1,
+          "emotion_intensity": 0.8
+        }
+      }
+    },
+    "script_content": "{[narrator]:[calm:very calm and peaceful]}欢迎收听科技前沿播客\n{[sarah]:[excited:very excited and enthusiastic]}今天我们要讨论人工智能的最新突破！\n{[tom]:[calm:calm and professional]}这项技术将彻底改变我们的生活方式\n{[narrator]:[calm:calm and informative]}感谢收听，我们下期再见"
+  }
+}

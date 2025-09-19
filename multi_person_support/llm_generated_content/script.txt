@@ -1,0 +1,12 @@
+narrator: [calm:0.3]In a cozy coffee shop, Emma was working on her laptop when her friend Jake burst in.
+jake: [excited:0.9]Emma! You won't believe what just happened!
+emma: [surprised:0.8]Jake? What's wrong? You look like you've seen a ghost.
+jake: [happy:0.8]Nothing's wrong! Something's amazing!
+jake: [calm:0.6]pulling up a chair. I got the job!
+emma: [surprised:0.7]The job at the tech company?
+emma: [happy:0.7]her eyes widening.
+jake: [joy:0.9]Yes! They called me five minutes ago,
+jake: [happy:0.8]his voice trembling with joy.
+emma: [happy:0.9]That's fantastic! I'm so happy for you!
+jake: [grateful:0.8]Thanks to you for helping me prepare,
+jake: [sincere:0.7]Those mock interviews made all the difference.

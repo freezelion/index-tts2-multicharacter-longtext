@@ -1,0 +1,86 @@
+{
+  "characters": {
+    "narrator": {
+      "name": "narrator",
+      "voice_file": "/media/george/AI/my_share_folder/sample_voice/山山.wav",
+      "default_emotion": "calm",
+      "emotion_intensity": 1,
+      "speech_rate": 1,
+      "pitch": 0.0,
+      "volume": 1,
+      "description": "旁白，使用山山的声音样本"
+    },
+    "sarah": {
+      "name": "Science Reporter",
+      "voice_file": "/media/george/AI/my_share_folder/sample_voice/新闻女播报.wav",
+      "default_emotion": "calm",
+      "emotion_intensity": 0.8,
+      "speech_rate": 1.1,
+      "pitch": -0.2,
+      "volume": 1.0,
+      "description": "科学主持人，语速较快的女声"
+    },
+    "ailin": {
+      "name": "艾琳",
+      "voice_file": "examples/voice_02.wav",
+      "default_emotion": "calm",
+      "emotion_intensity": 0.7,
+      "speech_rate": 1.1,
+      "pitch": 1.1,
+      "volume": 1.0,
+      "description": "女主角，海洋生物学家，声音清脆坚定"
+    },
+    "commander": {
+      "name": "指挥官",
+      "voice_file": "examples/voice_03.wav",
+      "default_emotion": "calm",
+      "emotion_intensity": 0.5,
+      "speech_rate": 0.9,
+      "pitch": 0.8,
+      "volume": 1.1,
+      "description": "母舰指挥官，声音低沉权威"
+    },
+    "guardian": {
+      "name": "守护者",
+      "voice_file": "examples/voice_04.wav",
+      "default_emotion": "calm",
+      "emotion_intensity": 0.6,
+      "speech_rate": 0.7,
+      "pitch": 0.6,
+      "volume": 1.2,
+      "description": "深海巨兽，声音低沉有力，带有回声效果"
+    },
+    "company": {
+      "name": "矿业公司",
+      "voice_file": "examples/voice_05.wav",
+      "default_emotion": "calm",
+      "emotion_intensity": 0.3,
+      "speech_rate": 1.0,
+      "pitch": 0.9,
+      "volume": 0.9,
+      "description": "公司代表，声音冷静无情"
+    }
+  },
+  "dialogue_patterns": {
+    "start_patterns": ["「", "\"", "\""],
+    "end_patterns": ["」", "\"", ""],
+    "emotion_prefixes": ["[", "{", "<"],
+    "emotion_suffixes": ["]", "}", ">"]
+  },
+  "narration_settings": {
+    "default_emotion": "calm",
+    "emotion_intensity": 0.0,
+    "speech_rate": 1.5,
+    "pitch": 1.0,
+    "volume": 0.9,
+    "pause_duration": 0.3
+  },
+  "dialogue_settings": {
+    "default_emotion": "calm",
+    "emotion_intensity": 0.8,
+    "speech_rate": 1.05,
+    "pitch": 1.05,
+    "volume": 1.0,
+    "pause_duration": 0.5
+  }
+}

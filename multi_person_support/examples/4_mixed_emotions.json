@@ -1,0 +1,41 @@
+{
+  "output": {
+    "character_config": {
+      "characters": {
+        "narrator": {
+          "name": "旁白",
+          "voice_file": "/media/george/AI/my_share_folder/sample_voice/山山.wav",
+          "pitch": 0,
+          "speech_rate": 0.9,
+          "volume": 0.9,
+          "emotion_intensity": 0.9
+        },
+        "tom": {
+          "name": "Tom",
+          "voice_file": "/media/george/AI/my_share_folder/sample_voice/山山.wav",
+          "pitch": 0.2,
+          "speech_rate": 1.0,
+          "volume": 1.0,
+          "emotion_intensity": 0.8
+        },
+        "sarah": {
+          "name": "Sarah",
+          "voice_file": "/media/george/AI/my_share_folder/sample_voice/新闻女播报.wav",
+          "pitch": -0.2,
+          "speech_rate": 1.1,
+          "volume": 1.0,
+          "emotion_intensity": 0.8
+        },
+        "mike": {
+          "name": "Mike",
+          "voice_file": "/media/george/AI/my_share_folder/sample_voice/山山.wav",
+          "pitch": 0.5,
+          "speech_rate": 0.95,
+          "volume": 1.1,
+          "emotion_intensity": 0.7
+        }
+      }
+    },
+    "script_content": "{[narrator]:[calm:peaceful and relaxed]}今天阳光明媚，公园里人来人往。\n{[tom]:[excited:very energetic and happy]}看！Mike也来了，我们一起去踢球吧！\n{[mike]:[calm:0.6]}好啊，我正好带了足球。\n{[sarah]:[surprised:completely shocked]}哇，你们都在这里啊！我也想加入。\n{[tom]:[angry:extremely frustrated]}不行，人太多了，足球场不够大。\n{[sarah]:[sad:very disappointed and hurt]}为什么我不能加入？这不公平！\n{[mike]:[calm:peaceful and diplomatic]}别吵架了，我们可以轮流玩或者找更大的地方。\n{[narrator]:[calm:0.8]}最终，他们决定一起去找一个更大的球场，朋友们重归于好。"
+  }
+}

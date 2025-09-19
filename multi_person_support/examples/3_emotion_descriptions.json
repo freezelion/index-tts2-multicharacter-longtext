@@ -1,0 +1,33 @@
+{
+  "output": {
+    "character_config": {
+      "characters": {
+        "narrator": {
+          "name": "旁白",
+          "voice_file": "/media/george/AI/my_share_folder/sample_voice/山山.wav",
+          "pitch": 0,
+          "speech_rate": 1.1,
+          "volume": 0.9,
+          "emotion_intensity": 0.9
+        },
+        "tom": {
+          "name": "Tom",
+          "voice_file": "/media/george/AI/my_share_folder/sample_voice/山山.wav",
+          "pitch": 0.2,
+          "speech_rate": 1.0,
+          "volume": 1.0,
+          "emotion_intensity": 1.0
+        },
+        "sarah": {
+          "name": "Sarah",
+          "voice_file": "/media/george/AI/my_share_folder/sample_voice/新闻女播报.wav",
+          "pitch": -0.2,
+          "speech_rate": 1.4,
+          "volume": 1.0,
+          "emotion_intensity": 1.0
+        }
+      }
+    },
+    "script_content": "{[narrator]:[calm:peaceful and relaxed]}今天天气真好，我们去公园吧。\n{[tom]:[angry:irritated and annoyed]}我不想去，我觉得在家看电视更好。\n{[sarah]:[excited:cheerful and enthusiastic]}别这样，天气这么好，我们应该出去走走。\n{[tom]:[sad:tired and disappointed]}可是我累了，而且我喜欢的节目马上就要开始了。\n{[sarah]:[calm:understanding and accepting]}那好吧，我自己去公园了。\n{[narrator]:[calm:warm and friendly]}祝你好运，玩得开心点。"
+  }
+}

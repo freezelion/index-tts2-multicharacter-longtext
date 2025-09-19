@@ -1,0 +1,28 @@
+{
+  "characters": {
+    "emma": {
+      "name": "Emma",
+      "voice_file": "1.旅游VLOG女2Haa.wav",
+      "pitch": -0.2,
+      "speech_rate": 1.0,
+      "volume": 0.9,
+      "emotion_intensity": 0.8
+    },
+    "jake": {
+      "name": "Jake",
+      "voice_file": "Alan024_青年男.wav",
+      "pitch": 0.1,
+      "speech_rate": 1.1,
+      "volume": 1.0,
+      "emotion_intensity": 0.8
+    },
+    "narrator": {
+      "name": "Narrator",
+      "voice_file": "audiobook_prompt.wav",
+      "pitch": 0.0,
+      "speech_rate": 0.9,
+      "volume": 0.9,
+      "emotion_intensity": 0.6
+    }
+  }
+}
